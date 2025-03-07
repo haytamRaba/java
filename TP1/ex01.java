@@ -91,6 +91,37 @@ class ex01 {
   static double qst7(int p, int n) {
     return qst6(n, p) / qst5(p);
   }
+  static void qst8() {
+    Random ran = new Random();
+    Scanner srandom = new Scanner(System.in);
+    int x = ran.nextInt(100) + 1;
+    int cpt = 5;
+    int nb = -1;
+    while ((cpt > 0) && (x != nb)) {
+
+      if (x != nb) {
+        System.out.println(" | nombre de tentative est : " + cpt);
+        System.out.print(" | saisir un nbr entre ( 1 et 100 ) : ");
+        nb = srandom.nextInt();
+        srandom.nextLine();
+      }
+
+      if (x == nb) {
+        System.out.println("\n | congratulations!!!! , ohooooo!\n");
+        System.out.println(" | nbr est : " + x + " \" " + nb + " \" ");
+      } else if (x > nb) {
+        System.out.println(" | trop petit ! ");
+      } else {
+        System.out.println(" | trop grand !!");
+      }
+      System.out.println(" \n********************************* \n ");
+      cpt--;
+      if ((cpt == 0) && (x != nb)) {
+        System.out.println("malheursment ! nbr de tentative est epuise, le nbr est : " + x + " try next time ! \n ");
+      }
+    }
+    srandom.close();
+  }
 
   public static void main(String[] args) {
     int i;
@@ -149,6 +180,10 @@ class ex01 {
           s.nextLine();
         }
         System.out.println("Combinaisons = " + qst7(y, z));
+        break;
+      case 8:
+
+           qst8();
         break;
 
       default:
