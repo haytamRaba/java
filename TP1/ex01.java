@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 class ex01 {
   static void qst1() {
@@ -9,7 +10,6 @@ class ex01 {
       i++;
     }
   }
-
   static void qst2() {
     System.out.println("\nquestion 2 :\n");
 
@@ -20,9 +20,7 @@ class ex01 {
       }
       i++;
     }
-
   }
-
   static void qst3() {
 
     Scanner sc = new Scanner(System.in);
