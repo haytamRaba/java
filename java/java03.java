@@ -35,7 +35,7 @@ class java03{
     double hypotenieus;
 
     hypotenieus = Math.sqrt (Math.pow(a, 2) + Math.pow(b,2));
-    System.out.println(" hypotenius = sqrt ( a**2 + b**2 ) ==> : " + hypotenieus + " cm.");
+    System.out.println(" hypotenius = sqrt ( a**2 + b**2 ) ==> :"+  hypotenieus + " cm.");
 
 
 
