@@ -26,7 +26,7 @@ public class weightConverter {
       System.out.print("enter the weight in kgs : ");
       weight = sc.nextDouble();
       newWeight = weight /0.453592;
-      System.out.printf("the weight in lbs :%.2f "  newWeight);
+      System.out.printf("the weight in lbs :%.2f "  ,newWeight);
 
      }
 
