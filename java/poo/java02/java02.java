@@ -1,3 +1,4 @@
+package java02;
 public class java02 {
   public static void main(String[] args) {
     // constructor = a special method to initialize objects

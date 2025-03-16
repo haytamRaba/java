@@ -1,3 +1,4 @@
+package java03;
 public class java03_user{
 
   String username;

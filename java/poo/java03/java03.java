@@ -1,3 +1,4 @@
+package java03;
 public class java03 {
   public static void main(String[] var0) {
      // Create instances of java03_user with different constructors

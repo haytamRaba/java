@@ -1,3 +1,4 @@
+package java04;
 public class java04 {
   public static void main(String[] args) {
     java04_Car car = new java04_Car("mustang", "black");

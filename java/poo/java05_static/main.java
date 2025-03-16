@@ -1,6 +1,6 @@
 
 public class main {
-    public static void main(String[] args) {
+    public static void main(String[] args ) {
       // static = makes a variable or method belong to the class rather than to any 
       //         specific object.
       //         commonly used for utility methods or shared resources
@@ -12,10 +12,12 @@ public class main {
       Friend friend1 = new Friend("nizar");
       Friend friend2 = new Friend("patrick");
      
-
+      
       System.out.println(Friend.numberOfFriends);
       // static method 
       Friend.showFriends();
+
+      System.out.println(friend.name + " " + friend1.name + " " + friend2.name);
       
     
   }

@@ -1,3 +1,4 @@
+package java02;
 public class java02_student {
   String name;
   int age;

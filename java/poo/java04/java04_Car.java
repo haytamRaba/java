@@ -1,3 +1,4 @@
+package java04;
 public class java04_Car {
   
   String model;
