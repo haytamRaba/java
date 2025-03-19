@@ -15,4 +15,4 @@ A repository documenting my progress learning Java programming. Contains practic
 
 ---
 
-*This repository is constantly evolving as I continue my Python learning journey.*
+*This repository is constantly evolving as I continue my JAVA learning journey.*
