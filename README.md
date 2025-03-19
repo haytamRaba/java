@@ -10,7 +10,7 @@ A repository documenting my progress learning Java programming. Contains practic
 
 ## 💡 Resources
 
-- [java Full Course 2025 - bro code]([https://docs.python.org/3/](https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=29662s&ab_channel=BroCode))
+- [java Full Course 2025 - bro code](https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=29662s&ab_channel=BroCode)
 - [30 days of code -Hacker RANK](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
 
 ---
