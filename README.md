@@ -7,3 +7,12 @@ A repository documenting my progress learning Java programming. Contains practic
 - Code snippets
 - Implementation of Java fundamentals
 - Small projects demonstrating core concepts!
+
+## 💡 Resources
+
+- [java Full Course 2025 - bro code](https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=29662s&ab_channel=BroCode)
+- [30 days of code -Hacker RANK](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
+
+---
+
+*This repository is constantly evolving as I continue my JAVA learning journey.*
