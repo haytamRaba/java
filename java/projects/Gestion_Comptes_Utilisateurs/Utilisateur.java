@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Utilisateur extends Personne {
 
@@ -6,6 +7,8 @@ public class Utilisateur extends Personne {
    private String motDepasse;
    private String nomRole;
    private static int id = 0;
+   private boolean online = false;
+   private ArrayList< Utilisateur> lUtilisateurs ;
    Scanner sc;
 
    Utilisateur() {
@@ -60,9 +63,6 @@ public class Utilisateur extends Personne {
       return this.nomRole;
    }
 
-   int getID() {
-      return id;
-   }
 
    void ajouterUtilisateur() {
       System.out.println("ajouter un utilisateur");
@@ -88,10 +88,17 @@ public class Utilisateur extends Personne {
    @Override 
    void getInfosPersonne() {
       super.getInfosPersonne(); 
+      System.out.println("| id :  " + id + "             |");
       System.out.println("| email : " + this.email + "  | ");
       System.out.println("| motdepasse : " + this.motDepasse + " |");
       System.out.println("| role : " + this.nomRole + " |");  
       System.out.println("-------------------------");
       System.out.println();
    }
+   
+
+
+
+
+
 }
